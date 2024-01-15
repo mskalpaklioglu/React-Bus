@@ -1,30 +1,37 @@
-# React + TypeScript + Vite
+# React Bus Uygulaması
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Genel Bilgiler
 
-Currently, two official plugins are available:
+React Bus, kullanıcıların otobüs seferlerini görüntülemelerine ve bilet satın almalarına olanak tanıyan bir web uygulamasıdır.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Kurulum
 
-## Expanding the ESLint configuration
+Proje bağımlılıklarını yüklemek için aşağıdaki komutları kullanın:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+npm install
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Uygulamayı başlatmak
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+uygulamayı başlatmak için :
+terminalde 
+cd react-bus yazıp klasör içine girmeniz , daha sonra 
+npm run dev  diyip başlatabilirsiniz.
+
+## Uygulamaya Giriş Yapmak
+email:  deneme@gmail.com    şifre:123
+email2: deneme2@gmail.com   şifre:456
+
+
+## Kullanılan Teknolojiler ve Sürümleri
+React: 17.0.2
+styled-components: 5.3.3
+react-bootstrap: 2.0.0
+
+## Proje Yapısı
+Proje dosyaları ve klasörleri hakkında kısa bir açıklama:
+
+src/components: React bileşenleri
+src/utils: Yardımcı fonksiyonlar ve veri dosyaları
+public: Genel dosyalar (favicon, index.html)
+
